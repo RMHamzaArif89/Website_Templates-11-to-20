@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House architecture</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="nav-side" id="nav-side">
+        <div class="nav-text">House Design</div>
+        <div class="nav-list">
+            <li class="close" onclick="nav_close()">Close</li>
+            <li>Designs</li>
+            <li>About us</li>
+            <li>Contact us</li>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div id="op">
+
+
+
+        <div class="nav-bar">
+            <a href="#" onclick="nav_open()">☰</a>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="con">
+
+            <div class="images" id="home">
+                <div class="img-t">We Provide Excellence</div>
+                <img alt="" src="/images/bg-a.jpg" class="mySlides">
+                <img alt="" src="/images/bg-b.jpg" class="mySlides">
+                <img alt="" src="/images/bg-5.jpg" class="mySlides">
+                <img alt="" src="/images/con1-img5.jpg" class="mySlides">
+                <img alt="" src="/images//bg-2.jpg" class="mySlides">
+                <img alt="" src="/images/bg-3.jpg" class="mySlides">
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="con-2">
+        <div class="con2-l">
+            <div class="con2-t">
+                <div class="con2-t1">Lorem, ipsum dolor</div>
+                <div class="con2-t2">We are in shock</div>
+                <div class="con2-t3">Most Recent work of us...</div>
+            </div>
+            <div class="con2-img"></div>
+        </div>
+
+        <div class="con2-r">
+            <div class="con2-t">
+                <div class="con2-t4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, culpa earum id
+                    distinctio doloribus consequuntur dolorem sapiente quod, ducimus recusandae tempora esse voluptate!</div>
+            </div>
+            <div class="con2-img2"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="list">
+    <li><i class="bi bi-pinterest"></i></li>
+    <li><i class="bi bi-facebook"></i></li>
+    <li><i class="bi bi-instagram"></i></li>
+    <li><i class="bi bi-twitter"></i></li>
+    <li><i class="bi bi-youtube"></i></li>
+    <li><i class="bi bi-linkedin"></i></li>
+    </div>
+    <div class="text">
+        RM Hamza
+      </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function nav_open() {
+            document.getElementById('nav-side').style.display = 'block';
+            document.getElementById('op').style.opacity = '0.4';
+        }
+        function nav_close() {
+            document.getElementById('nav-side').style.display = 'none';
+            document.getElementById('op').style.opacity = '1';
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+
+
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+
+            setTimeout(carousel, 2000);
+
+
+        }
+    </script>
+
+</body>
+
+</html>

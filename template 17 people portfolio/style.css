@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    padding: 0;margin: 0;
+}
+body{
+    background: #f0eeeebd;
+}
+
+.nav-bar {
+    width: 20%;
+    height: 755px;
+
+    position: fixed;
+    background: white;
+
+    animation: slide 4s forwards;
+    animation-delay: 1s;
+
+
+}
+
+@keyframes slide {
+    0% {
+        left: -20%;
+    }
+
+    50% {
+        left: 0%;
+    }
+}
+
+
+.nav-text{
+    
+    
+    color: rgb(61, 61, 61);
+    font-size: bold;
+    font-family: monospace;
+    font-size: 1.6rem;
+padding: 40px 0;
+text-align: center;
+}
+
+
+
+
+.list{
+    margin-top: 5%;
+}
+.list li{
+    cursor: pointer;
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    padding: 8px 0px;
+    text-align: center;
+font-size: 1.2rem;
+color: rgb(61, 61, 61);
+font-size: bold;
+font-family: monospace;
+text-transform: uppercase;
+}
+.list li:hover{
+    background: #cfcbcb81;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div.con-1{
+    width: 80%;
+    height: 1300px;
+    float: right;
+}
+div.con-1 .row{
+    width: 100%;
+    height: 30%;
+
+    
+}
+.row .img{
+    width: 33.1%;
+    height: 100%;
+    opacity: 0.95;
+    float: left;
+    
+}
+.img:hover{
+    opacity: 1;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.img-1{
+    background-image: url('/images/img-1a.jpg');
+    background-size: 100% 100%;
+}
+.img-2{
+    background-image: url('/images/img-1.jpg');
+    background-size: 100% 100%;
+}
+.img-3{
+    background-image: url('/images/img-2.jpg');
+    background-size: 100% 100%;
+}
+.img-4{
+    background-image: url('/images/img-3.jpg');
+    background-size: 100% 100%;
+}
+.img-5{
+    background-image: url('/images/img-10.jpg');
+    background-size: 100% 100%;
+}
+.img-6{
+    background-image: url('/images/img-4.jpg');
+    background-size: 100% 100%;
+}
+.img-7{
+    background-image: url('/images/img-8.jpg');
+    background-size: 100% 100%;
+}
+.img-8{
+    background-image: url('/images/img-9.jpg');
+    background-size: 100% 100%;
+}
+.img-9{
+    background-image: url('/images/img-7a.jpg');
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+.con1-n{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con1-n li{
+    text-align: center;
+    list-style: none;
+    width: 40px;
+height: 30px;
+padding: 6px 1px;
+cursor: pointer;
+
+}
+.con1-n li:hover{
+background: #000;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* small mobile and divices */
+
+@media (min-width:220px) and (max-width: 600px) {
+    html{
+    font-size:10px;
+    
+    }
+    div.con-1{
+        width: 80%;
+        height: 3800px;
+        /* float: right; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    div.con-1 .row{
+        width: 100%;
+        height: 32%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+        
+    }
+    .row .img{
+        width: 92%;
+        margin: auto;
+        height: 100%;
+        opacity: 0.95;
+        /* float: left; */
+        
+    }
+    
+    
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media (max-width:768px) and (min-width:600px) {
+    html{
+        font-size: 12px;
+    }
+    div.con-1{
+        width: 80%;
+        height: 3900px;
+        /* float: right; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    div.con-1 .row{
+        width: 100%;
+        height: 32%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+        
+    }
+    .row .img{
+        width: 92%;
+        margin: auto;
+        height: 100%;
+        opacity: 0.95;
+        /* float: left; */
+        
+    }
+
+    
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media(max-width:992px) and (min-width:768px){
+    html{
+        font-size: 14px;
+    }
+  
+    
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width:1200px){
+    html{
+        font-size: 16px;
+    
+        
+    }
+   
+    
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    
+    }
+    

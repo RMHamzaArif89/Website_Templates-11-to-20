@@ -1,0 +1,345 @@
+ /* Option 2: Import via CSS */
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+
+ .nav-bar {
+     width: 100%;
+     height: 40px;
+     background: black;
+     color: white;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+ }
+
+ .nav-bar a {
+     color: white;
+     text-decoration: none;
+     display: inline-block;
+     width: 6%;
+     height: 40px;
+     padding: 10px 4px;
+     text-align: center;
+     font-size: 1.1rem;
+     font-family: serif;
+ }
+
+ .nav-bar a:hover {
+     background: #c0bebea9;
+     color: #000000;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ div.con {
+     width: 100%;
+     height: 1100px;
+     margin-top: 40px;
+
+ }
+
+ div.con-1 {
+     float: left;
+     width: 16%;
+     height: 755px;
+     background: #dfdcdce8;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     animation: slide 4s forwards;
+     animation-delay: 1s;
+
+
+ }
+
+ @keyframes slide {
+     0% {
+         left: -16%;
+     }
+
+     50% {
+         left: 0%;
+     }
+ }
+
+
+
+
+
+
+
+ .con1-t {
+     font-size: 1.4rem;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin: 5%;
+     font-weight: bold;
+
+ }
+
+ .con-1 a {
+     text-decoration: none;
+     color: black;
+     font-size: 1.2rem;
+     font-family: monospace;
+     margin: 3%;
+     display: block;
+     padding: 8px 4px;
+     font-weight: lighter;
+ }
+
+ a:hover {
+     background: rgba(255, 255, 255, 0.801);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ div.con-2 {
+     float: right;
+     width: 59%;
+     height: 100%;
+     background: #fdfcfc;
+ }
+
+
+ .row {
+
+     width: 94%;
+     height: 30%;
+     margin-top: 0 2.5%;
+
+     margin: auto;
+
+ }
+
+ .row-t {
+     margin-top: 4%;
+     font-size: 2rem;
+
+     font-family: monospace;
+     color: rgb(7, 117, 117);
+
+ }
+
+ .row-t2 {
+     margin-top: 1%;
+     font-size: 1.1rem;
+     color: black;
+     font-family: 'Times New Roman', Times, serif;
+ }
+
+
+
+
+
+
+
+
+
+ div.con-3 {
+     float: right;
+     width: 25%;
+     height: 100%;
+
+ }
+
+ .con3-img {
+     border-top: 3px solid orange;
+     width: 100%;
+     height: 24%;
+     background-image: url('/images/bg-1.jpg');
+     background-size: 100% 100%;
+ }
+
+ .con3-img1 {
+     border-top: 3px solid orange;
+     width: 100%;
+     height: 25%;
+     background-image: url('/images/bg-3.jpg');
+     background-size: 100% 100%;
+ }
+
+ .con3-img2 {
+     border-top: 3px solid orange;
+     width: 100%;
+     height: 25%;
+     background-image: url('/images/bg-2.jpg');
+     background-size: 100% 100%;
+ }
+
+ .con3-img3 {
+     border-top: 3px solid orange;
+     width: 100%;
+     height: 25%;
+     background-image: url('/images/bg-1.jpg');
+     background-size: 100% 100%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ div.footer {
+     margin-top: 5%;
+     width: 100%;
+     height: 200px;
+     background: rgba(233, 231, 231, 0.788);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+ }
+
+ .footer .list {
+     width: 30%;
+
+ }
+
+ .footer li {
+     list-style-type: none;
+     display: inline-block;
+     margin-left: 0.3%;
+
+ }
+
+ .footer li .bi {
+     margin-left: 0.3%;
+     font-size: 1.3rem;
+
+ }
+
+ div.text {
+    width: 30%;
+    text-align: left;
+     margin-top: 1%;
+     font-size: 2rem;
+     font-weight: bold;
+     color: rgba(0, 0, 0, 0.61);
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+/* extra small divices */
+
+
+@media (min-width:220px) and (max-width: 600px) {
+    html{
+    font-size:10px;
+    
+    }
+  div.con-2{
+    width: 84%;
+    height: 50%;
+    float: right;
+  }
+  div.con-3{
+    width: 84%;
+    height:50%;
+
+    float: right;
+  }
+    
+    
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media (max-width:768px) and (min-width:600px) {
+    html{
+        font-size: 12px;
+    }
+    div.con-2{
+        width: 84%;
+        height: 50%;
+        float: right;
+      }
+      div.con-3{
+        width: 84%;
+        height:50%;
+    
+        float: right;
+      }
+
+    
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media(max-width:992px) and (min-width:768px){
+    html{
+        font-size: 14px;
+    }
+    
+  
+    
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width:1200px){
+    html{
+        font-size: 16px;
+    
+        
+    }
+   
+    
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    
+    }
+    

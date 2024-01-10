@@ -1,0 +1,447 @@
+   /* Option 2: Import via CSS */
+   @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+   * {
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+   }
+
+
+
+
+
+
+   .nav-side {
+       width: 250px;
+       height: 755px;
+       z-index: 5;
+       left: 0px;
+       top: 0px;
+       position: fixed;
+       background-image: url('/images/con1-img4.jpg');
+       background-size: 100% 100%;
+
+       animation: slide 0.8s;
+       animation-delay: 0s;
+       display: none;
+
+   }
+
+   @keyframes slide {
+       0% {
+           left: -250px;
+           opacity: 0;
+       }
+
+       100% {
+           left: 0%;
+           opacity: 1;
+       }
+   }
+
+
+
+   .nav-text {
+
+
+       color: black;
+       font-weight: bold;
+       font-family: monospace;
+       font-size: 1.6rem;
+       text-align: center;
+       padding: 40px 0px;
+   }
+
+
+
+
+   .nav-list {
+       margin-top: 5%;
+   }
+
+   .nav-list li {
+       cursor: pointer;
+       list-style: none;
+       width: 100%;
+       height: 30px;
+       padding: 5px 0px;
+       text-align: center;
+       font-size: 1.3rem;
+       color: black;
+       font-weight: bold;
+       font-family: monospace;
+       text-transform: uppercase;
+   }
+
+   .nav-list li:hover {
+       background: #949393bb;
+
+   }
+
+   .close {
+       font-weight: bold;
+       background: #c4c1c1b2;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .nav-bar {
+       width: 100%;
+       height: 60px;
+
+       position: fixed;
+       z-index: 1;
+   }
+
+   .nav-bar a {
+       display: block;
+       margin: 5px;
+       width: 40px;
+       text-decoration: none;
+       font-size: 1.8rem;
+       color: white;
+       padding: 4px 2px;
+       text-align: center;
+       margin-left: 5%;
+       font-weight: bolder;
+       background: #7573738c;
+
+
+   }
+
+   .nav-bar a:hover {
+       background: #4140408c;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   div.images img {
+       width: 100%;
+       height: 756px;
+       z-index: -1;
+   }
+
+   div.img-t {
+       background: white;
+       font-size: 2.5rem;
+       color: black;
+       font-weight: bolder;
+       font-family: 'Times New Roman', Times, serif;
+       position: absolute;
+       z-index: 1;
+       top: 50%;
+       left: 35%;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   div.con-2 {
+       width: 80%;
+       margin: auto;
+       height: 1300px;
+
+
+   }
+
+   .con-2 .con2-l {
+       float: left;
+       width: 50%;
+       height: 100%;
+
+   }
+
+   .con-2 .con2-r {
+       float: left;
+       width: 50%;
+       height: 100%;
+
+   }
+
+
+
+
+
+
+   .con2-t {
+       width: 100%;
+       height: 30%;
+
+   }
+
+   .con2-img {
+       width: 98%;
+       height: 64%;
+       margin-right: 2%;
+       background-image: url('/images/bg-a.jpg');
+       background-size: 100% 100%;
+   }
+
+   .con2-img2 {
+       width: 98%;
+       height: 64%;
+       margin-left: 2%;
+       background-image: url('/images/con-1.jpg');
+       background-size: 100% 100%;
+   }
+
+   .con2-t1 {
+
+       font-size: 1.5rem;
+       color: rgba(163, 161, 161, 0.445);
+       font-family: monospace;
+       font-weight: bold;
+       padding: 20px 8px;
+
+   }
+
+   .con2-t2 {
+       font-size: 3.5rem;
+       color: rgba(61, 60, 60, 0.952);
+       font-family: monospace;
+       font-weight: bold;
+       margin-top: 10%;
+       padding: 0px 8px;
+   }
+
+   .con2-t3 {
+       font-size: 1.4rem;
+       color: rgba(155, 151, 151, 0.842);
+       font-family: monospace;
+       font-weight: bold;
+       margin-top: 20%;
+       padding: 0px 8px;
+   }
+
+   
+   .con2-t4 {
+       font-size: 1.5rem;
+       color: rgba(109, 107, 107, 0.952);
+       font-family: monospace;
+       font-weight: bold;
+       padding: 40px 8px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   div.footer{
+       margin-top: 5%;
+       width: 100%;
+       height: 300px;
+   background-image: url('/images/bg-5.jpg');
+   background-size: 100% 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+}
+.footer .list{
+   width: 30%;
+   text-align: center;
+
+}
+   .footer .list li{
+       list-style-type: none;
+       display: inline-block;
+   margin-left:0.3%;
+   
+   }
+.footer li .bi{
+ margin-left: 0.3%;
+ font-size: 1.4rem;
+ cursor: pointer;
+   
+}
+.bi:hover{
+   color: rgba(10, 10, 10, 0.719);
+}
+div.text{
+   width: 30%;
+   text-align: center;
+   margin-top: 1%;
+   font-size: 2rem;
+   font-weight: bold;
+   color: rgba(0, 0, 0, 0.733);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* small mobile and divices */
+
+@media (min-width:220px) and (max-width: 600px) {
+    html{
+    font-size:10px;
+    
+    }
+    .con2-t2 {
+        font-size: 2rem;}
+        div.con-2 {
+            width: 80%;
+            margin: auto;
+            height: 750px;
+        
+        
+        }
+
+        .con2-img {
+            width: 98%;
+            height: 50%;
+           
+        }
+     
+        .con2-img2 {
+            width: 98%;
+            height: 50%;
+        
+        }
+        
+  
+   
+
+    
+    
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media (max-width:768px) and (min-width:600px) {
+    html{
+        font-size: 12px;
+    }
+    .con2-t2 {
+        font-size: 2.2rem;}
+
+        .con2-t2 {
+            font-size: 2rem;}
+            div.con-2 {
+                width: 80%;
+                margin: auto;
+                height: 780px;
+            
+            
+            }
+    
+            .con2-img {
+                width: 98%;
+                height: 50%;
+               
+            }
+         
+            .con2-img2 {
+                width: 98%;
+                height: 50%;
+            
+            }
+            
+
+
+
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media(max-width:992px) and (min-width:768px){
+    html{
+        font-size: 14px;
+    }
+    .con2-t2 {
+        font-size: 2.5rem;}
+        div.con-2 {
+            width: 80%;
+            margin: auto;
+            height: 820px;
+        
+        
+        }
+        .con2-img {
+            width: 98%;
+            height: 50%;
+           
+        }
+     
+        .con2-img2 {
+            width: 98%;
+            height: 50%;
+        
+        }
+    
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width:1200px){
+    html{
+        font-size: 16px;
+    
+        
+    }
+    .con2-t2 {
+        font-size: 2.8rem;}
+    
+   
+    
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    
+    }
+    

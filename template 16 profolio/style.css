@@ -1,0 +1,449 @@
+ /* Option 2: Import via CSS */
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+
+ body {
+     background: rgba(235, 232, 232, 0.747);
+ }
+
+ .nav-bar {
+     width: 19%;
+     height: 755px;
+ 
+     position: fixed;
+     background: white;
+
+     animation: slide 4s forwards;
+     animation-delay: 1s;
+
+
+ }
+
+ @keyframes slide {
+     0% {
+         left: -20%;
+     }
+
+     50% {
+         left: 0%;
+     }
+ }
+
+
+
+ div.img img {
+     width: 60%;
+     height: 120px;
+     margin: 8% 5%;
+     border-radius: 3.5px;
+
+ }
+
+ div.nav-t {
+     font-size: 1.5rem;
+     color: rgba(0, 0, 0, 0.795);
+     margin: 2% 5%;
+     font-size: bold;
+ }
+
+ div.nav-t2 {
+     font-size: 1.2rem;
+     color: rgba(128, 128, 128, 0.836);
+     margin: 4% 5%;
+
+ }
+
+ .nav-bar li {
+     list-style: none;
+     width: 100%;
+     height: 40px;
+     padding: 6px 0px;
+     cursor: pointer;
+
+
+ }
+
+ .nav-bar li:hover {
+     background: rgba(177, 172, 172, 0.342);
+     color: white;
+ }
+
+ .nav-bar li a {
+     text-decoration: none;
+     color: black;
+     font-size: 1.2rem;
+     font-family: monospace;
+     margin-left: 4%;
+ }
+
+ .nav-bar span i {
+     font-size: large;
+     margin-left: 4%;
+
+ }
+
+
+ div.footer {
+     margin-top: 4%;
+     width: 100%;
+     height: 80px;
+
+ }
+
+ .footer span {
+     list-style-type: none;
+     display: inline-block;
+     margin-left: 2%;
+
+ }
+
+ .footer .bi {
+     margin-left: 0.3%;
+     font-size: 1rem;
+     font-size: bold;
+     cursor: pointer;
+
+ }
+
+ .footer .bi:hover {
+     color: rgba(0, 0, 0, 0.432);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .container {
+     width: 78%;
+     height: 1100px;
+     margin-right: 2%;
+
+
+     float: right;
+
+ }
+
+
+
+
+
+ .con-1 {
+     width: 100%;
+     height: 15%;
+     border-bottom: 8px solid rgba(143, 139, 139, 0.856);
+ }
+
+ .con1-t {
+     font-size: 2.5rem;
+     color: rgba(0, 0, 0, 0.877);
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 2% 0%;
+ }
+
+
+ .con-1 li {
+     list-style: none;
+     display: inline-block;
+     width: 100px;
+     height: 40px;
+     text-align: center;
+     padding: 8px 2px;
+     background: white;
+     color: black;
+     cursor: pointer;
+
+ }
+
+ .con-1 li:hover {
+     background: rgba(219, 216, 216, 0.384);
+
+ }
+
+ .con-1 li a {
+     text-decoration: none;
+     color: black;
+     font-size: 0.8rem;
+     font-family: Arial, Helvetica, sans-serif;
+
+ }
+ .con1-t2 .all{
+    background-color: black; 
+    /* margin-top:20px;  */
+    width:70px;
+    height:50px;
+ }.con1-t2 .all a{
+    color:white; 
+    font-size:1.4rem;
+ }
+
+ .con-1 li a:hover {
+     color: white;
+
+ }
+
+ .con-1 li span i {
+     font-size: large;
+     margin-right: 10px;
+ }
+
+
+
+
+
+
+
+
+ .con-2 {
+     width: 100%;
+     height: 840px;
+
+
+ }
+
+ .con2-row {
+     width: 100%;
+     height: 46%;
+     margin-top: 2%;
+
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ .con2-row .con2-col {
+     width: 32.5%;
+     height: 100%;
+ background: white;
+
+ }
+
+ .con2-col .img {
+     width: 100%;
+     height: 65%;
+     background: blue;
+ }
+ .con2-col .img-1 {
+     background-image: url('/images/img-g.jpg');
+     background-size: 100% 100%;
+ }
+ .con2-col .img-2 {
+     background-image: url('/images/img-h6.jpg');
+     background-size: 100% 100%;
+ }
+ .con2-col .img-3 {
+     background-image: url('/images/img-h5.jpg');
+     background-size: 100% 100%;
+ }
+ .con2-col .img-4 {
+     background-image: url('/images/img-h4.jpg');
+     background-size: 100% 100%;
+ }
+ .con2-col .img-5 {
+     background-image: url('/images/temp4.jpg');
+     background-size: 100% 100%;
+ }
+ .con2-col .img-6 {
+     background-image: url('/images/img6.jpg');
+     background-size: 100% 100%;
+ }
+
+
+
+
+
+
+
+
+ .con2-col .text {
+     width: 98%;
+     height: 33%;
+     margin: 2%;
+     background: white;
+ }
+
+ 
+ .con2-n{
+     width: 100%;
+     height: 5%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .con2-n li{
+     text-align: center;
+     list-style: none;
+     width: 40px;
+ height: 30px;
+padding: 6px 1px;
+cursor: pointer;
+
+}
+.con2-n li:hover{
+ background: #000;
+ color: white;
+}
+
+
+
+
+
+
+
+
+/* small mobile and divices */
+
+@media (min-width:220px) and (max-width: 600px) {
+    html{
+    font-size:10px;
+    
+    }
+    .con-1 li {
+        width: 80px;
+        height: 30px;
+        padding: 4px 0;
+    }
+     .con1-t2 .all{
+    background-color: black; 
+    /* margin-top:20px;  */
+    width:50px;
+    height:30px;
+ }.con1-t2 .all a{
+    color:white; 
+    font-size:1.4rem;
+ }
+
+
+
+ 
+ .con-2 {
+    width: 100%;
+    height: 1680px;
+
+
+}
+
+.con2-row {
+    width: 100%;
+    height: 48%;
+    margin-top: 2%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.con2-row .con2-col {
+    width: 94%;
+    margin: auto;
+    height: 100%;
+background: white;
+
+}
+
+    
+    
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media (max-width:768px) and (min-width:600px) {
+    html{
+        font-size: 12px;
+    }
+    .con-1 li {
+        width: 80px;
+        height: 30px;
+        padding: 4px 0;
+    }
+     .con1-t2 .all{
+    background-color: black; 
+    /* margin-top:20px;  */
+    width:50px;
+    height:30px;
+ }.con1-t2 .all a{
+    color:white; 
+    font-size:1.4rem;
+ }
+
+
+  
+ .con-2 {
+    width: 100%;
+    height: 1680px;
+
+
+}
+
+.con2-row {
+    width: 100%;
+    height: 48%;
+    margin-top: 2%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.con2-row .con2-col {
+    width: 94%;
+    margin: auto;
+    height: 100%;
+background: white;
+
+}
+
+
+    
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media(max-width:992px) and (min-width:768px){
+    html{
+        font-size: 14px;
+    }
+  
+    
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width:1200px){
+    html{
+        font-size: 16px;
+    
+        
+    }
+   
+    
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    
+    }
+    

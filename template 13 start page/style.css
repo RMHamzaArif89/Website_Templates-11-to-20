@@ -1,0 +1,317 @@
+    /* Option 2: Import via CSS */
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-bar {
+        width: 100%;
+        height: 50px;
+        background: rgba(216, 39, 39, 0.89);
+        float: left;
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        display: flex;
+    }
+
+    .nav-bar a {
+        text-decoration: none;
+        /* display: inline-block; */
+        font-size: 1.2rem;
+        color: white;
+        width: 80px;
+        height: 30px;
+        padding: 10px 6px;
+        text-align: center;
+        font-family: monospace;
+    }
+
+    .nav-bar a:hover {
+        background: white;
+        color: black;
+    }
+
+
+
+
+
+
+
+    .con-2 {
+        width: 100%;
+        height: 750px;
+        background-image: url('/images/con1-img1.jpg');
+        background-size: 100% 100%;
+        opacity: 0.8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+    }
+
+    .con2-text {
+        font-size: 4.5rem;
+        font-family: monospace;
+        opacity: 1;
+
+    }
+
+    .con2-text2 {
+        font-size: 2rem;
+        font-family: monospace;
+        margin-top: 2%;
+        opacity: 1;
+    }
+
+    .con2-text3 {
+        cursor: pointer;
+        width: 150px;
+        height: 30px;
+        padding: 10px 4px;
+        background: black;
+        text-align: center;
+        font-size: 1.3rem;
+        font-family: monospace;
+        margin-top: 2%;
+        opacity: 1;
+    }
+
+    .con2-text3:hover {
+        background: rgba(255, 255, 255, 0.801);
+        color: black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    div.images img {
+        width: 100%;
+        height: 750px;
+        z-index: -1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    div.con3-row1 {
+    
+        width: 70%;
+        height: 450px;
+        
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    div.con3-row1 .l {
+        float: left;
+        width: 55%;
+        margin-right: 5%;
+        height: 100%;
+        
+    }
+
+    div.con3-row1 .r {
+        float: left;
+        width: 40%;
+        height: 90%;
+        background-image: url('/images/con2-img6.jpg');
+        background-size: 100% 100%;
+    }
+    div.con3-row1 .r2 {
+        float: left;
+        width: 40%;
+        height: 90%;
+        background-image: url('/images/con3-img3.jpg');
+        background-size: 100% 100%;
+    }
+    div.con3-row1 .r3 {
+        float: left;
+        width: 40%;
+        height: 90%;
+        background-image: url('/images/con3-img6.jpg');
+        background-size: 100% 100%;
+    }
+
+    .t1 {
+        margin-top: 5%;
+        font-size: 2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .t2 {
+        margin-top: 2%;
+        font-size: 1.1rem;
+        line-height: 1.5;
+        font-family: serif;
+        word-spacing: 5px;
+        color: rgb(114, 113, 113);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    div.footer{
+        margin-top: 5%;
+        width: 100%;
+        height: 200px;
+    background: rgba(233, 231, 231, 0.788);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.footer .list{
+    width: 30%;
+
+}
+    .footer li{
+        list-style-type: none;
+        display: inline-block;
+    margin-left:0.3%;
+    
+    }
+.footer li .bi{
+  margin-left: 0.3%;
+  font-size: 1.4rem;
+    
+}
+div.text{
+    width: 30%;
+
+    margin-top: 1%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.61);
+    text-align: left;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:220px) and (max-width: 600px) {
+    html{
+    font-size:10px;
+
+    
+    }
+    .nav-bar {
+        height: 30px;
+    
+    }.nav-bar a{
+        padding:8px 0 0 0;
+    }
+    .con2-text3{
+        width: 100px;
+        height: 20px;
+
+    }
+}
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media (max-width:768px) and (min-width:600px) {
+    html{
+        font-size: 12px;
+    }
+    .nav-bar {
+        height: 35px;
+    
+    }.nav-bar a{
+        padding:8px 0 0 0;
+    }
+    .con2-text3{
+        width: 110px;
+        height: 24px;
+    }
+    
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media(max-width:992px) and (min-width:768px){
+    html{
+        font-size: 14px;
+    }.nav-bar {
+        height: 40px;
+    
+    }.con2-text3{
+        width: 120px;
+        height: 28px;
+    }
+  
+    
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width:1200px){
+    html{
+        font-size: 16px;
+    
+        
+    }.nav-bar {
+        height: 40px;
+    
+    }.con2-text3{
+        width: 130px;
+        height: 32px;
+    }
+   
+    
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    
+    }
+    

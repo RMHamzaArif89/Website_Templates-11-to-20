@@ -1,0 +1,445 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.con-1 {
+    width: 100%;
+    height: 40px;
+    background: #0000009f;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.con-1 a {
+    font-size: 1.1rem;
+    width: 5%;
+
+    padding: 10px 8px;
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-family: monospace;
+}
+
+a:hover {
+    background: rgba(209, 208, 208, 0.836);
+    color: black;
+}
+
+
+
+.con-2 {
+    width: 100%;
+    height: 680px;
+    background-image: url('/images/con2-img.jpg');
+    background-size: 100% 100%;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.con2-text {
+
+    font-size: 3.2rem;
+    color: white;
+    font-family: cursive;
+
+}
+
+.con2-text2 {
+    margin-top: 2%;
+    font-size: 3.2rem;
+    color: white;
+    font-family: cursive;
+
+}
+
+.con2-btn {
+    cursor: pointer;
+    margin-top: 2%;
+    height: 34px;
+    width: 230px;
+    padding: 9px 3px;
+    font-size: 1.2rem;
+    color: white;
+    font-family: cursive;
+    background: #000;
+    text-align: center;
+}
+
+.con2-btn:hover {
+    background: rgba(128, 128, 128, 0.822);
+    color: #000;
+}
+
+.con2-text3 {
+    align-self: flex-start;
+    margin-left: 1%;
+
+    height: 20px;
+    width: 200px;
+    padding: 8px 0%;
+    font-size: 1rem;
+    color: white;
+    font-family: monospace;
+    background: #000;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    top: 640px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.con-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 1600px;
+    background: black;
+}
+
+.con3-text {
+    font-size: 3.2rem;
+    color: white;
+    font-family: cursive;
+    margin-top: 4%;
+}
+
+
+
+.con3-con {
+    margin-top: 4%;
+    background: white;
+    width: 70%;
+    height: 80%;
+}
+
+.con3-header {
+    width: 100%;
+    height: 6%;
+    border: 1px solid gray;
+}
+
+.con3-header span {
+
+    /* display: inline-block; */
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: cursive;
+    text-align: center;
+    height: 65%;
+    width: 33.3%;
+    padding: 15px 0px;
+    background: #000;
+    color: white;
+    float: left;
+}
+
+.con3-header a:hover {
+    background: rgba(253, 31, 31, 0.993);
+    color: #000;
+
+}
+div.pizza,.salad,.pasta{
+    width: 100%;
+    height: 100%;
+    /* background: #000; */
+    /* display: none; */
+}
+
+.row-1 {
+    margin-top: 4.5%;
+}
+
+
+.con3-con .row {
+    width: 100%;
+    height: 14%;
+
+    border-bottom: 1px solid rgba(214, 209, 209, 0.904);
+}
+
+.row-text1 {
+    margin-top: 2%;
+    width: 100%;
+    height: 48%;
+}
+
+p.t1 {
+    font-size: 2rem;
+    color: black;
+    font-weight: normal;
+    font-family: cursive;
+    float: left;
+    margin-left: 2%;
+}
+
+.btn {
+
+    background: rgba(65, 64, 64, 0.89);
+    width: 75px;
+    height: 50px;
+    border-radius: 4px;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    float: right;
+    margin-right: 2%;
+    border: none;
+    font-size: 1.3rem;
+}
+
+
+.row-text2 {
+    margin-left: 2%;
+    width: 100%;
+    height: 50%;
+    font-size: 1.5rem;
+    color: rgb(168, 162, 162);
+    font-family: monospace;
+
+}
+.deal{
+    display: inline-block;
+    width: 70px;
+    height: 36px;
+    padding: 5px 0px;
+    background: rgba(255, 57, 57, 0.973);
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 4px;
+}
+.deal2{
+    display: inline-block;
+    width: 70px;
+    height: 36px;
+    padding: 5px 0px;
+    background: rgba(71, 71, 71, 0.973);
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con-4{
+    width: 100%;
+    height: 1400px;
+    background-color:indianred;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.con4-text{
+    margin-top: 5%;
+    font-size: 2.5rem;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+
+
+.con4-text2{
+    margin-top: 3.5%;
+    width: 70%;
+    font-size: 1.1rem;
+    color: white;
+    font-family:monospace;
+}
+.con4-text3{
+    height: 6%;
+    margin-top: 2%; 
+    width: 70%;
+    font-size: 1.1rem;
+    color: white;
+    font-family:monospace;  
+    line-height: 2.4;  
+    display: inline-block;
+
+}
+.l{
+    float: left;
+    
+    width: 50%;
+}
+.r{
+width: 50%;
+    float: right;
+   
+}
+
+
+.con4-img{
+    margin-top: 3%;
+    width: 70%;
+    height: 50%;
+    background-image: url('/images/con4-img.jpg');
+    background-size: 100% 100%;
+}
+
+
+
+
+div.con4-text4{
+    width: 50%;
+    margin-top: 5%;
+    height: 25%;
+    
+
+}
+.p1{
+    width: 40%;
+    height: 80%;
+    float: left;
+    text-align: center;
+    
+}
+.p1-text{
+    font-size: 2.2rem;
+    color: white;
+    font-family: cursive;
+    
+}
+.p1-text2{
+margin-top: 8%;
+    font-size:1.2rem;
+    color: white;
+font-family: cursive;
+}
+.p2{
+   
+    width: 40%;
+    height: 80%;
+    float: right;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con-5{
+    width: 100%;
+    height: 760px;
+    background-image: url('/images/con5-img2.jpg');
+    background-size: 100% 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* small mobile and divices */
+
+@media (min-width:220px) and (max-width: 600px) {
+    html{
+    font-size:10px;
+    
+    }
+    
+    
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media (max-width:768px) and (min-width:600px) {
+    html{
+        font-size: 12px;
+    }
+
+    
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media(max-width:992px) and (min-width:768px){
+    html{
+        font-size: 14px;
+    }
+  
+    
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width:1200px){
+    html{
+        font-size: 16px;
+    
+        
+    }
+   
+    
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    
+    }
+    

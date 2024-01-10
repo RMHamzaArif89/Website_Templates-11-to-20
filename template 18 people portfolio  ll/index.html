@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="nav-side" id="nav-side">
+        <div class="nav-text">RM desginers</div>
+        <div class="list">
+            <li class="close" onclick="nav_close()">Close</li>
+            <li>portfolio</li>
+            <li>about me</li>
+            <li>contact</li>
+        </div>
+    </div>
+
+<div id="op">
+    <div class="nav-bar">
+        <div class="nav-t">
+            RM Devlopers
+        </div>
+
+
+        <div class="nav-tog">
+            <a href="#" onclick="nav_open()">☰</a>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="con-1">
+        <div class="row">
+            <div class="con1-img img-1"></div>
+            <div class="con1-img img-2"></div>
+            <div class="con1-img img-3"></div>
+            <div class="con1-img img-4"></div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="con1-img img-5"></div>
+            <div class="con1-img img-6"></div>
+            <div class="con1-img img-7"></div>
+            <div class="con1-img img-8"></div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="con1-img img-9"></div>
+            <div class="con1-img img-10"></div>
+            <div class="con1-img img-11"></div>
+            <div class="con1-img img-12"></div>
+        </div>
+
+
+
+
+
+
+        <div class="con1-n">
+            <li style="font-size: smaller;">
+                << </li>
+            <li style="background-color: #000; color:white;">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li style="font-size: smaller;">>></li>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- op div -->
+</div>
+
+
+    <script>
+        nav = document.getElementById('nav-side')
+        console.log(nav)
+
+        function nav_open() {
+            document.getElementById('nav-side').style.display = 'block';
+            document.getElementById('op').style.opacity='0.5'
+        }
+
+        function nav_close() {
+            document.getElementById('nav-side').style.display = 'none';
+            document.getElementById('op').style.opacity='1'
+        }
+    </script>
+</body>
+
+</html>

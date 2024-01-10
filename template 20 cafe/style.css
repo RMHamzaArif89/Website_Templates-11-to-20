@@ -1,0 +1,354 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 55px;
+    background: #000;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-bar a {
+    text-decoration: none;
+    display: inline-block;
+    width:20%;
+    height: 20px;
+    padding: 10px 0px;
+    color: white;
+    font-size: 0.7rem;
+    font-family: serif;
+    text-align: center;
+    line-height: 1.5;
+    margin: 7.5px;
+}
+
+.nav-bar a:hover {
+    background: #eceaea98;
+}
+
+
+
+
+
+
+
+
+
+
+.con-1 {
+    width: 100%;
+    height: 600px;
+    background-image: url('/images/bg-3.jpg');
+    background-size: 100% 100%;
+    opacity: 0.8;
+}
+
+.con1-t {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    text-align: center;
+    font-size: 4.5rem;
+    font-family: serif;
+
+    color: white;
+}
+
+.con1-t2 {
+    font-size: 1rem;
+    background: black;
+    color: white;
+    position: absolute;
+    bottom: 23%;
+    left: 2%;
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con-2 {
+
+    height: 1100px;
+    width: 50%;
+    margin: auto;
+}
+
+
+.text {
+    height: 16%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.con2-t {
+    background: black;
+    color: white;
+    padding: 6px;
+    font-size: 1.3rem;
+    font-family: serif;
+    text-align: center;
+    letter-spacing: 4px;
+    width: 40%;
+    margin: auto;
+
+
+}
+
+
+
+.con2-t2 {
+    font-size: 1.2rem;
+    font-family: serif;
+    color: rgb(77, 76, 76);
+    word-spacing: 5px;
+}
+
+
+
+.con2-t3 {
+
+    width: 100%;
+    height: 9%;
+
+    border-left: 6px solid rgba(163, 163, 163, 0.767);
+}
+
+p.text3 {
+    font-size: 1.4rem;
+    word-spacing: 5px;
+    margin: 3%;
+}
+
+.con2-img {
+    margin-top: 4%;
+    width: 100%;
+    height: 42%;
+    background-image: url('/images/bg-4.jpg');
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con-3 {
+
+    height: 820px;
+    width: 50%;
+    margin: auto;
+}
+
+
+.con3-text {
+    height: 13%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.con3-t {
+    background: #000;
+    color: white;
+
+    font-size: 1.3rem;
+    font-family: serif;
+    text-align: center;
+    letter-spacing: 4px;
+    width: 20%;
+    /* height: 50px; */
+    margin: auto;
+
+
+}
+
+
+.con3-con {
+    background: rgba(216, 213, 213, 0.466);
+    width: 100%;
+    height: 87%;
+    border-style: 4px;
+}
+
+.con-header {
+    width: 100%;
+    height: 10%;
+}
+
+.con-header a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    width: 50%;
+    height: 20px;
+    background: grey;
+    text-align: center;
+    padding: 10px 0;
+    float: left;
+}
+
+.con-header a:hover {
+    background: white;
+    color: black;
+}
+
+
+
+.con3-con .con-row {
+    width: 100%;
+    height: 15%;
+}
+
+.con-row .c-text {
+    font-size: 1.3rem;
+    color: black;
+    font-family: serif;
+    margin: 3%;
+}
+
+.con-row .c-text2 {
+    font-size: 1.3rem;
+    color: gray;
+    font-family: serif;
+    margin: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* small mobile and divices */
+
+@media (min-width:220px) and (max-width: 600px) {
+    html{
+    font-size:10px;
+    
+    }
+    .con2-t {
+        padding: 6px;
+        font-size: 1.2rem;
+      
+        width: 60%;
+        margin: auto;
+    
+    
+    }
+    .con3-t {
+        font-size: 1.1rem;
+        font-family: serif;
+        width: 28%;
+    
+    
+    }
+
+    
+    
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media (max-width:768px) and (min-width:600px) {
+    html{
+        font-size: 12px;
+    }
+    .con2-t {
+        padding: 6px;
+        font-size: 1.3rem;
+      
+        width: 55%;
+        
+    
+    
+    }
+ 
+
+    
+    
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media(max-width:992px) and (min-width:768px){
+    html{
+        font-size: 14px;
+    }
+    .con2-t {
+        padding: 6px;
+        font-size: 1.3rem;
+      
+        width: 30%;
+        margin: auto;
+    
+    
+    }
+   
+  
+    
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width:1200px){
+    html{
+        font-size: 16px;
+    
+        
+    }
+   
+    
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    
+    }
+    
